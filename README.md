@@ -1,7 +1,7 @@
 RecursiveGridView
 ===
 
-A UIView subclass that would dynamically layouts the subviews in grid recursively.  It doesn't scroll, uses the frame of the view. 
+A UIView subclass that would dynamically layout the subviews in a grid recursively.  It doesn't scroll, uses the frame of the view. 
 
 Demo
 ---
