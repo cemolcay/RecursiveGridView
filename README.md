@@ -8,6 +8,11 @@ Demo
 
 ![alt tag](https://github.com/cemolcay/RecursiveGridView/blob/main/demo.gif)
 
+Install
+---
+
+Add the url of this repo to your swift package manager.  
+
 Usage
 ---
 
