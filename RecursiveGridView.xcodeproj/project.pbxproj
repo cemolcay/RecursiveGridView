@@ -6,6 +6,17 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C1DA9CCE2D561274009854EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DA9CC22D561274009854EC /* AppDelegate.swift */; };
+		C1DA9CCF2D561274009854EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DA9CC92D561274009854EC /* SceneDelegate.swift */; };
+		C1DA9CD02D561274009854EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DA9CCA2D561274009854EC /* ViewController.swift */; };
+		C1DA9CD12D561274009854EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1DA9CC32D561274009854EC /* Assets.xcassets */; };
+		C1DA9CD32D561274009854EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1DA9CC62D561274009854EC /* LaunchScreen.storyboard */; };
+		C1DA9CD42D561274009854EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1DA9CC82D561274009854EC /* Main.storyboard */; };
+		C1DA9CDB2D561284009854EC /* RecursiveGridViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DA9CD82D561284009854EC /* RecursiveGridViewTests.swift */; };
+		C1DA9CDC2D561284009854EC /* RecursiveGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DA9CD52D561284009854EC /* RecursiveGridView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		C1DA9C972D561154009854EC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,27 +38,18 @@
 		C1DA9C802D56114E009854EC /* RecursiveGridView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecursiveGridView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1DA9C962D561154009854EC /* RecursiveGridViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecursiveGridViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1DA9CA02D561154009854EC /* RecursiveGridViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecursiveGridViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1DA9CC22D561274009854EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C1DA9CC32D561274009854EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1DA9CC42D561274009854EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1DA9CC52D561274009854EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C1DA9CC72D561274009854EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1DA9CC92D561274009854EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C1DA9CCA2D561274009854EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C1DA9CD52D561284009854EC /* RecursiveGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecursiveGridView.swift; sourceTree = "<group>"; };
+		C1DA9CD82D561284009854EC /* RecursiveGridViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecursiveGridViewTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		C1DA9CA82D561154009854EC /* Exceptions for "RecursiveGridView" folder in "RecursiveGridView" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = C1DA9C7F2D56114E009854EC /* RecursiveGridView */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		C1DA9C822D56114E009854EC /* RecursiveGridView */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				C1DA9CA82D561154009854EC /* Exceptions for "RecursiveGridView" folder in "RecursiveGridView" target */,
-			);
-			path = RecursiveGridView;
-			sourceTree = "<group>";
-		};
 		C1DA9C992D561154009854EC /* RecursiveGridViewTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = RecursiveGridViewTests;
@@ -88,7 +90,7 @@
 		C1DA9C772D56114E009854EC = {
 			isa = PBXGroup;
 			children = (
-				C1DA9C822D56114E009854EC /* RecursiveGridView */,
+				C1DA9CCB2D561274009854EC /* RecursiveGridView */,
 				C1DA9C992D561154009854EC /* RecursiveGridViewTests */,
 				C1DA9CA32D561154009854EC /* RecursiveGridViewUITests */,
 				C1DA9C812D56114E009854EC /* Products */,
@@ -105,6 +107,54 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		C1DA9CCB2D561274009854EC /* RecursiveGridView */ = {
+			isa = PBXGroup;
+			children = (
+				C1DA9CC22D561274009854EC /* AppDelegate.swift */,
+				C1DA9CC32D561274009854EC /* Assets.xcassets */,
+				C1DA9CC42D561274009854EC /* Info.plist */,
+				C1DA9CC62D561274009854EC /* LaunchScreen.storyboard */,
+				C1DA9CC82D561274009854EC /* Main.storyboard */,
+				C1DA9CC92D561274009854EC /* SceneDelegate.swift */,
+				C1DA9CCA2D561274009854EC /* ViewController.swift */,
+				C1DA9CD72D561284009854EC /* Sources */,
+				C1DA9CDA2D561284009854EC /* Tests */,
+			);
+			path = RecursiveGridView;
+			sourceTree = "<group>";
+		};
+		C1DA9CD62D561284009854EC /* RecursiveGridView */ = {
+			isa = PBXGroup;
+			children = (
+				C1DA9CD52D561284009854EC /* RecursiveGridView.swift */,
+			);
+			path = RecursiveGridView;
+			sourceTree = "<group>";
+		};
+		C1DA9CD72D561284009854EC /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C1DA9CD62D561284009854EC /* RecursiveGridView */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		C1DA9CD92D561284009854EC /* RecursiveGridViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1DA9CD82D561284009854EC /* RecursiveGridViewTests.swift */,
+			);
+			path = RecursiveGridViewTests;
+			sourceTree = "<group>";
+		};
+		C1DA9CDA2D561284009854EC /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C1DA9CD92D561284009854EC /* RecursiveGridViewTests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +169,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				C1DA9C822D56114E009854EC /* RecursiveGridView */,
 			);
 			name = RecursiveGridView;
 			packageProductDependencies = (
@@ -225,6 +272,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1DA9CD12D561274009854EC /* Assets.xcassets in Resources */,
+				C1DA9CD32D561274009854EC /* LaunchScreen.storyboard in Resources */,
+				C1DA9CD42D561274009854EC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +299,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1DA9CCE2D561274009854EC /* AppDelegate.swift in Sources */,
+				C1DA9CCF2D561274009854EC /* SceneDelegate.swift in Sources */,
+				C1DA9CDB2D561284009854EC /* RecursiveGridViewTests.swift in Sources */,
+				C1DA9CDC2D561284009854EC /* RecursiveGridView.swift in Sources */,
+				C1DA9CD02D561274009854EC /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +335,25 @@
 			targetProxy = C1DA9CA12D561154009854EC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C1DA9CC62D561274009854EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1DA9CC52D561274009854EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C1DA9CC82D561274009854EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1DA9CC72D561274009854EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C1DA9CAA2D561154009854EC /* Debug */ = {
